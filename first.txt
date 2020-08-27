@@ -6,3 +6,5 @@ Gitの練習
 ・git status
 ・git log, git log --oneline, git log -n, git log -p, git log -p ファイル名 
 ・git diff, git diff HEAD
+・git remote add origin https://github.com/kokisgithub/intro_git
+・git push origin master
