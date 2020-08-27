@@ -8,3 +8,25 @@ Gitの練習
 ・git diff, git diff HEAD
 ・git remote add origin https://github.com/kokisgithub/intro_git
 ・git push origin master
+
+・.gitignoreファイル
+  #から始まる行はコメント
+  指定したファイルを除外したい ファイル名そのまま index.html
+  ルートディレクトリを指定 /root.html
+  ディレクトリ以下を除外  dir/
+
+・間違ってコミットした場合
+  ファイルを削除してgit rm ファイル名 でgitの管理から削除
+  ディレクトリも git rm -r ディレクトリ名
+
+・gitの管理から削除してファイルは残す場合
+  git rm --cached ファイル名
+.gitignoreファイルに指定しておかないとgitの管理から外すが無視はされない
+
+・git reset HEAD ファイル名
+  元の状態に戻す(gitの管理からは外れるがローカル上で消えたまま)
+・git checkout ファイル名
+  ローカルからも復元
+
+
+
