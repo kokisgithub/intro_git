@@ -1,6 +1,7 @@
 Gitの練習
 基本的なワークフローについて学ぶ
-・git add
+・git add ファイル名, git add .(全てのファイル) 
 ・git commit
 ・git rm
 ・git status
+・git log, git log --oneline, git log -n, git log -p, git log -p ファイル名 
